@@ -11,7 +11,7 @@ struct StatueOfLiberty: View {
     var body: some View {
         
         ZStack{
-          
+          // City View
                 Image("lib")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
